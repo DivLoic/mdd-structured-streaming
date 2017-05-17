@@ -5,8 +5,6 @@
 
 // MAGIC #### Les sources :
 
-// MAGIC ![](https://dl.dropboxusercontent.com/s/un46m230941h7a4/source.png?dl=0)
-
 // MAGIC %md configuration
 
 val BROKER_HOST = "172.16.41.136"
