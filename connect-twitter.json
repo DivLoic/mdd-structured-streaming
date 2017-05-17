@@ -1,0 +1,19 @@
+{
+  "name": "twitter-source",
+  "config": {
+    "connector.class": "com.eneco.trading.kafka.connect.twitter.TwitterSourceConnector",
+    "tasks.max": "1",
+    "topic": "twitter",
+    "stream.type": "filter",
+    "track.terms": "trump,potus,white house",
+    "track.follow": "25073877,52544275,22203756,822215679726100480",
+    "language": "en",
+    "twitter.consumerkey": "<your-key>",
+    "twitter.consumersecret": "<your-secret>",
+    "twitter.token": "<your-token>",
+    "twitter.secret": "<your-secret>",
+    "output.format": "structured",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter"
+  }
+}
